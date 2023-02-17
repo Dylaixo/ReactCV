@@ -2,3 +2,8 @@
   margin-top: 10px !important;
   margin-left: 80%;
 }
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

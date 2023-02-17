@@ -1,0 +1,20 @@
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+ .footer{
+    height: 50px;
+    background-color: #6c757d!important;
+    margin-top: auto !important;
+ }
+ .text{
+    margin-top: 15px;
+    font-size: 12px;
+ }
+ a{
+    margin-top: 10px;
+    color: black;
+ }
+ a:hover{
+    color: gray
+ }
