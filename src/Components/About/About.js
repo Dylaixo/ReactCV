@@ -4,8 +4,8 @@ import './About.css';
 function About() {
   return (
     <div>
-      <h2>About</h2>
-      <p className='text'>{data[0].about}</p>
+      <h2 className='about'>About</h2>
+      <p className='text-about'>{data[0].about}</p>
     </div>
   );
 }

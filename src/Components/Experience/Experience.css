@@ -1,0 +1,28 @@
+.icone{
+    cursor: pointer;
+    margin: 20px 0 20px 10px;
+}
+.icone:hover{
+    color: gray !important;
+}
+h2{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.content{
+    margin-top: 40px;
+}
+.contentinfo{
+    margin-top: 20px;
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.resp{
+    width: 40%;
+    margin: 0 auto;
+}
+.centre{
+    text-align: center;
+}

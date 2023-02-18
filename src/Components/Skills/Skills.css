@@ -1,0 +1,26 @@
+.basic{
+    color: green;
+}
+.regular{
+    color: aqua;
+}
+.advance{
+    color: red;
+}
+.skill{
+    margin-left: 15%;
+}
+.title-skills{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.rate{
+    justify-content: space-between;
+}
+.desc{
+    width: 40%;
+    margin: 20px 0 30px 20px;
+    font-size: 1.2rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+}

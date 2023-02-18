@@ -12,6 +12,7 @@
   width: 400px;
   margin-left: auto;
   margin-right: auto;
+  border-top: dotted 5px;
 }
 .scroll-to-top{
   top: 70px !important;

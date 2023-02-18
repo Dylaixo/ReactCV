@@ -1,11 +1,13 @@
-.text{
-    width: 630px;
+.text-about{
+    width: 50%;
     text-align: center;
     margin: 20px auto;
-    font-size: 1rem !important;
+    font-size: 1.5rem !important;
     font-family: "Lucida Console", "Courier New", monospace;
+    margin-bottom: 80px;
 }
-h2{
-    margin-top: 40px;
+.about{
+    margin-top: 80px;
     text-align: center;
+
 }

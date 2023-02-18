@@ -1,0 +1,18 @@
+.wid{
+    width: 20%;
+    font-size: 20px;
+}
+.form-group{
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+form{
+    margin-bottom: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+h2{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
