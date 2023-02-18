@@ -9,7 +9,7 @@ export const data =[
             "phone": "793792594",
             "email": "marcin.log01@gmail.com",
         },
-        "about": "dasdasdasd",
+        "about": "I’m student of last year at the Bialystok University of Technology. I’m interesed in web development. I would like to improve my skills in web development and administrate them. Working in group isn’t problem for me and I’m focusing at my job.",
         "education": [
             {
                 "institution": "Secondary school in Bialystok",

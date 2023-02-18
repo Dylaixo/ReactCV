@@ -11,3 +11,6 @@
     padding: 0 !important;
     margin: 0 !important;
  }
+ .shadow{
+    box-shadow: 10px 7px 7px grey !important;
+ }

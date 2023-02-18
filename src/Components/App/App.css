@@ -6,4 +6,10 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: azure;
+}
+.divide{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }

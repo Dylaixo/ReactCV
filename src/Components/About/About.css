@@ -1,0 +1,11 @@
+.text{
+    width: 630px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1rem !important;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+h2{
+    margin-top: 40px;
+    text-align: center;
+}

@@ -8,14 +8,14 @@ function Info() {
   const { name, surname, date, adress, city, phone, email } = data[0].informations;
 
   return (
-    <div className='row mt-4 nopadding'>
+    <div className='row nopadding'>
         <div className='col-2 nopadding'></div>
         <div className='col-3 nopadding'>
              <img className='rounded photo' src={photo} alt="CV Photo" />
         </div>
         <div className='col ms-5 info nopadding'>
             <h4>Personal Information</h4>
-            <ListGroup variant="flush">
+            <ListGroup variant="flush" className='shadow'>
                 <ListGroup.Item>Name: {name + " " + surname}</ListGroup.Item>
                 <ListGroup.Item>Date of Birth: {date}</ListGroup.Item>
                 <ListGroup.Item>Address: {adress + ", " + city}</ListGroup.Item>

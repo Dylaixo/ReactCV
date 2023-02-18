@@ -9,11 +9,11 @@ function Footer() {
             <p className='text'>&#174;Marcin Łogwinowicz Cirriculum vitae</p>
         </div>
         <div className='col'></div>
-        <div className='col-1 text-center mt-1'>
-            <a target="_blank" href="https://www.linkedin.com/in/marcin-%C5%82ogwinowicz-7aa52323a/"><AiFillLinkedin/></a>
+        <div className='col-1 text-center mt-3'>
+            <a target="_blank" href="https://www.linkedin.com/in/marcin-%C5%82ogwinowicz-7aa52323a/"><AiFillLinkedin size={30}/></a>
         </div>
-        <div className='col-1 text-center mt-1'>
-            <a target="_blank" href="https://github.com/Dylaixo/ReactCV"><AiFillGithub/></a>
+        <div className='col-1 text-center mt-3'>
+            <a target="_blank" href="https://github.com/Dylaixo/ReactCV"><AiFillGithub size={30}/></a>
         </div>
     </div>
   );
