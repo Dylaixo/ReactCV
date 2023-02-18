@@ -13,3 +13,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+.scroll-to-top{
+  top: 70px !important;
+  right: 50% !important;
+}

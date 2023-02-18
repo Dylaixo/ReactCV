@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Education from '../Education/Education';
 import Skills from '../Skills/Skills';
 import Experience from '../Experience/Experience';
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
           <Route path='/Experience' element={<Experience/>}/>
           <Route path='/Skills' element={<Skills/>}/>
         </Routes>
-
+        <ScrollToTop/>
         <Footer/>
       </div>
     </Router>

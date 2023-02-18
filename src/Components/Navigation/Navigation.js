@@ -1,12 +1,10 @@
 import React from 'react'
-
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import './Navigation.css';
+import { Link } from 'react-router-dom';
 
 function Navigation() {
   return (
@@ -28,10 +26,10 @@ function Navigation() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">About</Nav.Link>
-                  <Nav.Link href="#action2">Education</Nav.Link>
-                  <Nav.Link href="#action2">Experience</Nav.Link>
-                  <Nav.Link href="#action2">Skills</Nav.Link>
+                <Nav.Link><Link to="/About">About</Link></Nav.Link>
+                <Nav.Link><Link to="/Education">Education</Link></Nav.Link>
+                <Nav.Link><Link to="/Experience">Experience</Link></Nav.Link>
+                <Nav.Link><Link to="/Skills">Skills</Link></Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
