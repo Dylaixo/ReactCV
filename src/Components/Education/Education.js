@@ -2,11 +2,12 @@ import React from 'react';
 import { data } from '../../data';
 import './Education.css';
 import {BsFillCalendarMinusFill, BsBook } from "react-icons/bs";
+import { motion } from 'framer-motion'
 
 function Education() {
     const education = data[0].education;
   return (
-    <div className='content'>
+    <motion.div className='content' initial={ {opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
     {education.map((edu, index) => (
       <div className='contentinfo' key={index}>
         <h3>{edu.institution}</h3>
@@ -16,7 +17,7 @@ function Education() {
       </div>
     ))}
 
-  </div>
+  </motion.div>
   );
 }
 

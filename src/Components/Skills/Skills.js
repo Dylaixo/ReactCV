@@ -2,11 +2,12 @@ import React from 'react';
 import { data } from '../../data';
 import './Skills.css';
 import { BsFillStarFill, BsStar } from "react-icons/bs";
+import { motion } from 'framer-motion'
 
 function Skills() {
   const skills = data[0].skills;
   return (
-    <div>
+    <motion.div initial={ {opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} >
     <h2 className='title-skills'>My skills</h2>
     {skills.map((skill, index) => (
       <div className='skill' key={index}>
@@ -22,7 +23,7 @@ function Skills() {
         <hr className='divide'></hr>
       </div>
     ))}
-  </div>
+  </motion.div>
   );
 }
 

@@ -2,14 +2,11 @@ import './App.css';
 import Info from '../Info/Info';
 import Navigation from '../Navigation/Navigation';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import About from '../About/About';
 import Footer from '../Footer/Footer';
 import IconNav from '../IconNav/IconNav';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Education from '../Education/Education';
-import Skills from '../Skills/Skills';
-import Experience from '../Experience/Experience';
+import { BrowserRouter as Router} from 'react-router-dom';
 import ScrollToTop from "react-scroll-to-top";
+import RouterAnimation from '../RouterAnimation/RouterAnimation';
 
 function App() {
   return (
@@ -19,13 +16,8 @@ function App() {
         <Navigation/>
         <Info/>
         <hr className='mt-5 divide'></hr>
-        <IconNav></IconNav>
-        <Routes>
-          <Route path='/About' element={<About/>}/>
-          <Route path='/Education' element={<Education/>}/>
-          <Route path='/Experience' element={<Experience/>}/>
-          <Route path='/Skills' element={<Skills/>}/>
-        </Routes>
+        <IconNav/>
+        <RouterAnimation/>
         <ScrollToTop/>
         <Footer/>
       </div>
