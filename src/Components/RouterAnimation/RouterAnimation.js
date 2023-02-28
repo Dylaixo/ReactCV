@@ -4,7 +4,7 @@ import Education from '../Education/Education';
 import Skills from '../Skills/Skills';
 import Experience from '../Experience/Experience';
 import About from '../About/About';
-import {AnimatePresence } from 'framer-motion/dist/framer-motion'
+import {motion, AnimatePresence} from 'framer-motion'
 
 function RouterAnimation() {
     const location = useLocation();

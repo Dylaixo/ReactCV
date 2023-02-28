@@ -7,12 +7,13 @@ import IconNav from '../IconNav/IconNav';
 import { BrowserRouter as Router} from 'react-router-dom';
 import ScrollToTop from "react-scroll-to-top";
 import RouterAnimation from '../RouterAnimation/RouterAnimation';
+import CurrentDate from '../CurrentDate/CurrentDate';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <p className='visit'>Page visited: 0 times</p>
+        <CurrentDate/>
         <Navigation/>
         <Info/>
         <hr className='mt-5 divide'></hr>

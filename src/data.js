@@ -9,7 +9,7 @@ export const data =[
             "phone": "793792594",
             "email": "marcin.log01@gmail.com",
         },
-        "about": "I’m student of last year at the Bialystok University of Technology. I’m interesed in web development. I would like to improve my skills in web development and administrate them. Working in group isn’t problem for me and I’m focusing at my job.",
+        "about": "I’m student of last year at the Bialystok University of Technology. In this semester I’m going to start my engineering work build in React. It will be about making IT courses to teach programming languages. I’m interested in web development. I would like to improve my skills in web development and administrating websites. I really like working in small teams and communicate to other members of team to do tasks and solve problems.",
         "education": [
             {
                 "institution": "Secondary school in Bialystok",
@@ -30,25 +30,25 @@ export const data =[
                 "start_date": "01.09.2022r.",
                 "end_date": "now",
                 "position": "Administration Support",
-                "resposibilities": "Administrating and managment of computer network and keeping it in good technical condition, removing irregularities in the operations of computer equipment, managing and updating website (https://www.izbawetbial.pl/)"
+                "resposibilities": "Administrating and management of computer network and keeping it in good technical condition, removing irregularities in the operations of computer equipment, managing and updating website (https://www.izbawetbial.pl/)"
             },
             {
                 "name": "Spółdzielnia Inwalidów Spinwar w Białymstoku",
                 "start_date": "01.09.2022r.",
                 "end_date": "now",
                 "position": "Administration Support",
-                "resposibilities": "Administrating and managment of computer network and keeping it in good technical condition, removing irregularities in the operations of computer equipment, managing and updating website, helping employees with programs (Symfonia) and computer equipment used in company."
+                "resposibilities": "Administrating and management of computer network and keeping it in good technical condition, removing irregularities in the operations of computer equipment, managing and updating website, helping employees with programs (Symfonia) and computer equipment used in company."
             },
             {
                 "name": "Dom Pomocy Społecznej w Białymstoku",
                 "start_date": "01.08.2022r.",
                 "end_date": "31.11.2022r.",
                 "position": "Administration Support",
-                "resposibilities": "Administrating and managment of computer network and keeping it in good technical condition, removing irregularities in the operations of computer equipment, data archiving, managing and updating website and offical BIP (Biuletynu Informacji Publicznej ) website: https://www.bip.dpsb.bialystok.pl/"
+                "resposibilities": "Administrating and management of computer network and keeping it in good technical condition, removing irregularities in the operations of computer equipment, data archiving, managing and updating website and offical BIP (Biuletynu Informacji Publicznej ) website: https://www.bip.dpsb.bialystok.pl/"
             },
             {
                 "name": "Teaching children",
-                "resposibilities": "Preparing children and teenagers to school and final exams in math and phisics."
+                "resposibilities": "Preparing children and teenagers to school and final exams in math and physics."
             },
             {
                 "name": "Driver in restaurant Halo Picka in Bialystok",
@@ -68,9 +68,14 @@ export const data =[
                 "description": "First time I heard about HTML before secondary school and in this time I created my first HTML & CSS website. Still I finding new informations about this language and usage in different."
             },
             {
-                "name": "CSS & Bootstrap",
+                "name": "CSS",
                 "level": "advanced",
-                "description": "I started learning CSS in the same time as HTML. In every university project I find new way of usage CSS. I also started to use Bootstrap to style elements on pages and make them more responisble."
+                "description": "I started learning CSS in the same time as HTML. In every university project I find new way of usage CSS."
+            },
+            {
+                "name": "Bootstrap",
+                "level": "regular",
+                "description": "I started to use Bootstrap to style elements on pages, make them more responisble and attractive"
             },
             {
                 "name": "JavaScript",
@@ -80,7 +85,7 @@ export const data =[
             {
                 "name": "ReactJS",
                 "level": "regular",
-                "description": "I created this CV in React. At university I used React in one of the group projects. Mainly I was responisble for creating components, routing them and displaying content at page."
+                "description": "I created this CV in React. At university I used React in two of the group projects. Mainly I was responisble for creating components, routing them, styling and displaying content at page."
             },
             {
                 "name": "SQL",
@@ -98,7 +103,8 @@ export const data =[
             },
             {
                 "name": "English",
-                "level": "B2"
+                "level": "B2",
+                "description": "This semester I'll have exam and after I pass it I will get certificate."
             },
             {
                 "name": "Driver license cat. B",
