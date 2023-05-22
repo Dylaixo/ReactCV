@@ -30,6 +30,7 @@ function Navigation() {
                 <Nav.Link><Link to="/Education">Education</Link></Nav.Link>
                 <Nav.Link><Link to="/Experience">Experience</Link></Nav.Link>
                 <Nav.Link><Link to="/Skills">Skills</Link></Nav.Link>
+                <Nav.Link><Link to="/Projects">Projects</Link></Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

@@ -4,9 +4,9 @@ import photo from './cv-photo.jpg';
 import ListGroup from 'react-bootstrap/ListGroup';
 import './Info.css';
 import { BsFillTelephoneFill, BsFillEnvelopeOpenFill, BsFillCalendarDateFill, BsFillPersonLinesFill, BsFillDoorClosedFill } from "react-icons/bs";
-
+import {AiOutlineGithub, AiFillLinkedin} from 'react-icons/ai'
 function Info() {
-  const { name, surname, date, adress, city, phone, email } = data[0].informations;
+  const { name, surname, date, phone, email, linkedin, github } = data[0].informations;
 
   return (
     <div className='row nopadding'>
@@ -19,9 +19,10 @@ function Info() {
             <ListGroup variant="flush" className='shadow'>
                 <ListGroup.Item><BsFillPersonLinesFill size={25}/> {name + " " + surname}</ListGroup.Item>
                 <ListGroup.Item><BsFillCalendarDateFill size={25}/> {date}</ListGroup.Item>
-                <ListGroup.Item><BsFillDoorClosedFill size={25}/> {adress + ", " + city}</ListGroup.Item>
                 <ListGroup.Item><BsFillTelephoneFill size={25}/> {phone}</ListGroup.Item>
                 <ListGroup.Item><BsFillEnvelopeOpenFill size={25} /> {email}</ListGroup.Item>
+                <ListGroup.Item><AiOutlineGithub size={25} /> <a className='link' href={github}>Github profile</a></ListGroup.Item>
+                <ListGroup.Item><AiFillLinkedin size={25} /><a className='link' href={linkedin}>Linkedin profile</a></ListGroup.Item>
              </ListGroup>
         </div>
         <div className='col-2 nopadding'></div>

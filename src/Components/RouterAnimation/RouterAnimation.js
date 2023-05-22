@@ -5,7 +5,7 @@ import Skills from '../Skills/Skills';
 import Experience from '../Experience/Experience';
 import About from '../About/About';
 import {motion, AnimatePresence} from 'framer-motion'
-
+import Projects from '../Projects/Projects';
 function RouterAnimation() {
     const location = useLocation();
   return (
@@ -15,6 +15,7 @@ function RouterAnimation() {
             <Route path='/Education' element={<Education/>}/>
             <Route path='/Experience' element={<Experience/>}/>
             <Route path='/Skills' element={<Skills/>}/>
+            <Route path='/Projects' element={<Projects/>}/>
         </Routes>
     </AnimatePresence>
   )

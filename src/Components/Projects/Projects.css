@@ -1,0 +1,13 @@
+.projectImg{
+    width: 35%;
+    box-shadow: 10px 7px 7px grey !important;
+}
+.projectDescription{
+    margin-top: 20px;
+}
+.describe{
+    font-size: 1.2rem;
+}
+.tech{
+    font-size: 1.2rem;
+}
