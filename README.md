@@ -1,5 +1,5 @@
 # My CV made in React
-
+## Live website: https://647b4ccf1de3800bc26b0e23--roaring-jalebi-59590a.netlify.app
 ![image](https://github.com/Dylaixo/ReactCV/assets/100869542/129211a0-9d67-4ab5-9028-a12b7a3af84f)
 
 It shows up whole information about myself. My current career and skills.
