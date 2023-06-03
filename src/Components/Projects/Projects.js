@@ -5,7 +5,7 @@ function Projects() {
     const projects = data[0].projects;
     console.log(projects)
   return (
-    <motion.div initial={ {opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
+    <div initial={ {opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
     {projects.map((project, index) => (
       <div className='contentinfo' key={index}>
         <h3>{project.title}</h3>
@@ -18,7 +18,7 @@ function Projects() {
         <hr className='divide'></hr>
       </div>
     ))}
-    </motion.div>
+    </div>
   );
 }
 

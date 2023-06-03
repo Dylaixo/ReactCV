@@ -9,7 +9,7 @@ function Education() {
     const education = data[0].education;
     const courses = data[0].courses
   return (
-    <motion.div className='content' initial={ {opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
+    <div className='content' >
       <h3 className='title'>Education</h3>
     {education.map((edu, index) => (
       <div className='contentinfo' key={index}>
@@ -28,7 +28,7 @@ function Education() {
       <hr className='divide'></hr>
     </div>
     ))}
-  </motion.div>
+  </div>
   );
 }
 

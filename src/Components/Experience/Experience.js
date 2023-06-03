@@ -19,7 +19,7 @@ function Experience() {
     data[0].experience.push(experience);
   };
   return (
-    <motion.div className='content' initial={ {opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} >
+    <div className='content' >
       {experiences.map((exp, index) => (
         <div className='contentinfo'key={index}>
           {exp.position ? <h2>{exp.name}: {exp.position}</h2> : <h2>{exp.name}</h2>}
@@ -33,7 +33,7 @@ function Experience() {
         <BsPlusCircleFill className='icone' onClick={() => setShowPopup(true)} size={30}></BsPlusCircleFill>
         {showPopup && <AddExperience onClose={() => setShowPopup(false)} onAdd={handleAddExperience} />}
       </div>
-    </motion.div>
+    </div>
   );
 }
 

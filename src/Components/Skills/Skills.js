@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 function Skills() {
   const skills = data[0].skills;
   return (
-    <motion.div initial={ {opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} >
+    <div >
     <h2 className='title-skills'>My skills</h2>
     {skills.map((skill, index) => (
       <div className='skill' key={index}>
@@ -23,7 +23,7 @@ function Skills() {
         <hr className='divide'></hr>
       </div>
     ))}
-  </motion.div>
+  </div>
   );
 }
 
